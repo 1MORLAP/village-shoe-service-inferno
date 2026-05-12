@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Shoe Service • Inferno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+        :root { --gold: #c9a66b; }
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .heading { font-family: 'Playfair Display', Georgia, serif; letter-spacing: -.02em; }
+        .luxury-card { background: linear-gradient(145deg, #1a1612, #0f0c0a); }
+        .section-divider { height: 1px; background: linear-gradient(to right, transparent, #3f2a1d, transparent); }
+    </style>
+</head>
+<body class="bg-[#0a0806] text-[#e8d9c0]">
+    <!-- Navbar -->
+    <nav class="border-b border-white/10 sticky top-0 z-50 bg-[#0a0806]/80 backdrop-blur-xl">
+        <div class="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-x-4">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 rounded-2xl bg-gradient-to-br from-[#c9a66b] to-[#8B5E3C] flex items-center justify-center">
+                        <i class="fas fa-shoe-prints text-[#0a0806] text-2xl"></i>
+                    </div>
+                    <div class="font-semibold text-3xl tracking-tighter">Village Shoe Service</div>
+                </div>
+                <div class="px-3 py-px text-xs font-medium bg-white/5 rounded border border-white/10 text-[#c9a66b]">EST 1969</div>
+            </div>
+            
+            <div class="flex items-center gap-x-10 text-sm">
+                <a href="#services" class="hover:text-white transition-colors">Services</a>
+                <a href="#pricing" class="hover:text-white transition-colors">Pricing</a>
+                <a href="#heritage" class="hover:text-white transition-colors">Heritage</a>
+                <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+            </div>
+            
+            <a href="tel:7709387463" class="px-7 py-3.5 bg-white text-[#0a0806] font-semibold rounded-2xl text-sm flex items-center gap-x-2 hover:bg-[#f8f1e9] transition-all">
+                <span>Schedule Consultation</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="max-w-7xl mx-auto px-8 pt-20 pb-24">
+        <div class="max-w-4xl">
+            <div class="inline-flex items-center gap-x-3 bg-white/5 px-5 py-2 rounded-full border border-white/10 mb-8">
+                <div class="px-3 py-px bg-emerald-500/20 text-emerald-400 text-xs font-medium rounded">2026 BEST OF ATLANTA</div>
+                <div class="text-xs text-[#c9a66b]">•</div>
+                <div class="text-xs">4.99★ • 412 Reviews</div>
+            </div>
+            
+            <h1 class="text-[92px] font-bold tracking-tighter leading-[1.05] heading mb-8">Master craftsmanship.<br>Timeless results.</h1>
+            
+            <p class="max-w-lg text-2xl text-[#a38e72]">Larry Schupbach Jr. and his team deliver the finest shoe restoration and custom footwear in the Southeast.</p>
+            
+            <div class="mt-12 flex items-center gap-x-5">
+                <a href="#pricing" class="px-9 py-4 bg-gradient-to-r from-[#c9a66b] to-[#8B5E3C] text-[#0a0806] font-semibold rounded-3xl flex items-center gap-x-3 text-sm hover:brightness-105 transition-all active:scale-[0.985]">
+                    EXPLORE SERVICES
+                </a>
+                <a href="tel:7709387463" class="px-9 py-4 border border-white/20 hover:bg-white/5 rounded-3xl flex items-center gap-x-3 text-sm font-medium transition-all">
+                    <i class="fas fa-phone text-[#c9a66b]"></i>
+                    <span>770-938-7463</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services" class="max-w-7xl mx-auto px-8 py-20 border-t border-white/10">
+        <div class="text-center mb-16">
+            <div class="text-[#c9a66b] text-xs tracking-[4px] font-medium">SIGNATURE SERVICES</div>
+            <h2 class="text-6xl font-semibold tracking-tighter mt-4">What we do best</h2>
+        </div>
+        
+        <div class="grid md:grid-cols-12 gap-6">
+            <div class="md:col-span-5 luxury-card border border-white/10 p-12 rounded-3xl">
+                <div class="text-[#c9a66b] text-5xl mb-8"><i class="fas fa-sync"></i></div>
+                <div class="font-semibold text-4xl tracking-tight">Full Restoration</div>
+                <div class="mt-6 text-lg text-[#a38e72]">Complete rebuild for dress shoes, boots, and heritage footwear. New soles, stitching, refinishing, and structural repairs.</div>
+                <div class="mt-10 text-sm font-medium flex items-center gap-x-2 text-[#c9a66b]">
+                    <span>FROM $125</span> <i class="fas fa-arrow-right text-xs"></i>
+                </div>
+            </div>
+            
+            <div class="md:col-span-4 luxury-card border border-white/10 p-12 rounded-3xl">
+                <div class="text-[#c9a66b] text-5xl mb-8"><i class="fas fa-handshake"></i></div>
+                <div class="font-semibold text-4xl tracking-tight">Bespoke Sandals</div>
+                <div class="mt-6 text-lg text-[#a38e72]">Handcrafted to your exact measurements using the finest leathers and orthotic-grade footbeds. A true heirloom piece.</div>
+                <div class="mt-10 text-sm font-medium flex items-center gap-x-2 text-[#c9a66b]">
+                    <span>FROM $225</span> <i class="fas fa-arrow-right text-xs"></i>
+                </div>
+            </div>
+            
+            <div class="md:col-span-3 luxury-card border border-white/10 p-12 rounded-3xl flex flex-col">
+                <div class="text-[#c9a66b] text-5xl mb-8"><i class="fas fa-user-md"></i></div>
+                <div class="font-semibold text-4xl tracking-tight">Pedorthic Care</div>
+                <div class="mt-auto">
+                    <div class="text-lg text-[#a38e72]">Certified pedorthist consultations, custom orthotics, and solutions for complex foot conditions.</div>
+                    <div class="mt-8 text-sm font-medium text-[#c9a66b]">CONSULTATION FROM $125</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing -->
+    <div id="pricing" class="bg-[#11100d] py-20 border-y border-white/10">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="flex flex-col md:flex-row gap-x-16">
+                <div class="md:w-5/12">
+                    <div class="sticky top-24">
+                        <div class="text-[#c9a66b] text-xs tracking-[3px] font-medium">INVESTMENT</div>
+                        <h2 class="text-6xl font-semibold tracking-tighter mt-4 leading-none">Pricing that reflects the work.</h2>
+                        <p class="mt-6 text-[#a38e72] text-[17px]">Every repair receives the same level of care we give our own family’s shoes. No shortcuts. Ever.</p>
+                        
+                        <div class="mt-12 p-6 border border-white/10 rounded-2xl bg-[#0a0806]">
+                            <div class="flex items-start gap-x-4">
+                                <i class="fas fa-clock text-[#c9a66b] mt-1"></i>
+                                <div>
+                                    <div class="font-medium">Current Turnaround</div>
+                                    <div class="text-4xl font-semibold mt-1">4–8 weeks</div>
+                                    <div class="text-xs text-[#a38e72] mt-3">We are currently at capacity. Custom and complex work takes longer. Your patience is appreciated.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-7/12 mt-12 md:mt-0">
+                    <div class="bg-[#0a0806] border border-white/10 rounded-3xl overflow-hidden">
+                        <table class="w-full text-sm">
+                            <thead>
+                                <tr class="border-b border-white/10">
+                                    <th class="py-5 px-9 text-left font-normal text-[#a38e72]">Service</th>
+                                    <th class="py-5 px-9 text-right font-normal text-[#a38e72]">Investment</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-white/10">
+                                <tr><td class="py-6 px-9">Half Sole (Premium Leather/Rubber)</td><td class="py-6 px-9 text-right font-medium">$85 – $135</td></tr>
+                                <tr><td class="py-6 px-9">Full Sole Replacement (Goodyear Welt)</td><td class="py-6 px-9 text-right font-medium">$145 – $225</td></tr>
+                                <tr><td class="py-6 px-9">Heel Repair &amp; Replacement</td><td class="py-6 px-9 text-right font-medium">$55 – $125</td></tr>
+                                <tr><td class="py-6 px-9">Structural Stitching &amp; Leather Repair</td><td class="py-6 px-9 text-right font-medium">$65 – $145</td></tr>
+                                <tr><td class="py-6 px-9">Custom Orthotics &amp; Pedorthic Work</td><td class="py-6 px-9 text-right font-medium">$125 – $285</td></tr>
+                                <tr><td class="py-6 px-9">Bespoke Custom Sandals</td><td class="py-6 px-9 text-right font-medium">$225 – $385</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="text-center mt-6 text-xs text-[#a38e72]">90-day workmanship guarantee on every repair • Free estimates</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Heritage -->
+    <div id="heritage" class="max-w-7xl mx-auto px-8 py-24">
+        <div class="max-w-3xl">
+            <div class="text-[#c9a66b] text-xs tracking-[3px] font-medium">OUR LEGACY</div>
+            <h2 class="text-7xl font-semibold tracking-tighter mt-6 leading-none">A family tradition of excellence since 1969.</h2>
+            
+            <div class="mt-10 text-xl text-[#a38e72]">Larry Schupbach Jr. is a second-generation master cobbler and Certified Pedorthist. He has been restoring shoes professionally since 1997, carrying forward techniques passed down from his father and grandfather.</div>
+        </div>
+        
+        <div class="mt-16 grid md:grid-cols-12 gap-6">
+            <div class="md:col-span-4 bg-[#11100d] border border-white/10 p-10 rounded-3xl">
+                <div class="text-5xl mb-8">🏆</div>
+                <div class="font-semibold text-3xl tracking-tight">Grand Silver Cup</div>
+                <div class="text-sm text-[#a38e72] mt-4">1st Place — Shoe Service Institute of America International Competition, 2003</div>
+            </div>
+            <div class="md:col-span-4 bg-[#11100d] border border-white/10 p-10 rounded-3xl">
+                <div class="text-5xl mb-8">🎖️</div>
+                <div class="font-semibold text-3xl tracking-tight">Certified Pedorthist (C.Ped.)</div>
+                <div class="text-sm text-[#a38e72] mt-4">American Board for Certification in Orthotics, Prosthetics &amp; Pedorthics</div>
+            </div>
+            <div class="md:col-span-4 bg-[#11100d] border border-white/10 p-10 rounded-3xl">
+                <div class="text-5xl mb-8">📜</div>
+                <div class="font-semibold text-3xl tracking-tight">26+ Years Mastery</div>
+                <div class="text-sm text-[#a38e72] mt-4">Specializing in the most complex restorations and custom orthotic solutions</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="bg-[#11100d] border-t border-white/10 py-20">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="max-w-xl">
+                <div class="text-[#c9a66b] text-xs tracking-[3px] font-medium">NEXT STEPS</div>
+                <h2 class="text-7xl font-semibold tracking-tighter mt-5">Let’s restore your favorite shoes.</h2>
+                
+                <div class="mt-12 space-y-10">
+                    <div>
+                        <div class="text-xs text-[#a38e72] font-medium tracking-widest mb-3">VISIT THE SHOP</div>
+                        <div class="text-3xl font-medium tracking-tight">4286 Railroad Ave.<br>Tucker, GA 30084</div>
+                    </div>
+                    
+                    <div>
+                        <div class="text-xs text-[#a38e72] font-medium tracking-widest mb-3">CALL OR TEXT</div>
+                        <a href="tel:7709387463" class="text-5xl font-semibold tracking-tighter hover:text-[#c9a66b] transition-colors">770-938-7463</a>
+                    </div>
+                    
+                    <div class="pt-6 border-t border-white/10">
+                        <div class="text-xs text-[#a38e72] font-medium tracking-widest mb-2">CURRENT WAIT TIME</div>
+                        <div class="text-5xl font-semibold tracking-tighter">4–8 weeks</div>
+                        <div class="text-sm text-[#a38e72] mt-2">We are currently at full capacity. Custom and complex work takes longer. Thank you for understanding.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-black py-16 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-8 text-xs text-[#a38e72]">
+            <div class="flex flex-col md:flex-row justify-between gap-y-6">
+                <div>© 1969–2026 Village Shoe Service. All rights reserved.</div>
+                <div class="flex items-center gap-x-8">
+                    <span>Larry Schupbach Jr., C.Ped. — Owner &amp; Master Cobbler</span>
+                    <span>90-Day Guarantee on All Work</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
